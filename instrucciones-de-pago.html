@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="es-419">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f8f5">
+  <meta name="description" content="Paga tu pedido de Cr3ArtD por transferencia a Banco Cuscatlán.">
+  <title>Paga tu pedido — Cr3ArtD</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montserrat:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Ir al contenido</a>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Cr3ArtD, inicio"><img class="brand-logo" src="img.jpg" alt="Cr3ArtD — Ideas que toman forma"></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Abrir menú"><span></span><span></span><span></span></button>
+    <nav class="main-nav" id="main-nav" aria-label="Navegación principal"><a href="index.html">Home</a><a href="instrucciones-de-pago.html" aria-current="page">Instrucciones de Pago</a></nav>
+  </header>
+  <main class="payment-guide" id="contenido">
+    <div class="payment-guide-image"><img src="img.jpg" alt="Logo de Cr3ArtD — Ideas que toman forma"></div>
+    <section class="payment-guide-content">
+      <p class="eyebrow">Transferencia bancaria</p>
+      <div class="bank-heading"><h1>Paga tu pedido</h1></div>
+      <p class="payment-lead">Realiza tu transferencia bancaria utilizando los siguientes datos. Después, envía tu comprobante por WhatsApp para confirmar el pago y despacharte tu producto.</p>
+      <div class="account-details" aria-label="Datos para realizar la transferencia">
+        <img class="bank-logo" src="https://commons.wikimedia.org/wiki/Special:FilePath/Banco_Cuscatl%C3%A1n.png" alt="Banco Cuscatlán">
+        <div class="account-row"><span>Banco</span><strong>Banco Cuscatlán</strong></div>
+        <div class="account-row"><span>Tipo de cuenta</span><strong>Cuenta de ahorro</strong></div>
+        <div class="account-row"><span>Titular de la cuenta</span><strong>Willian Osegueda</strong></div>
+        <div class="account-row"><span>Nombre del titular</span><strong>Willian Esau Osegueda Vasquez</strong></div>
+        <div class="account-row account-number"><span>Número de cuenta</span><strong>401495004379611</strong></div>
+      </div>
+      <a class="button button-green receipt-button" href="https://wa.me/50370640855?text=Hola%2C%20ya%20realic%C3%A9%20la%20transferencia%20de%20mi%20pedido.%20Adjunto%20el%20comprobante." target="_blank" rel="noopener noreferrer">Enviar comprobante por WhatsApp <span>↗</span></a>
+      <p class="payment-reminder">Recuerda adjuntar el comprobante en el chat para que podamos confirmar tu pago.</p>
+    </section>
+  </main>
+  <footer class="site-footer"><a class="brand footer-brand" href="index.html" aria-label="Cr3ArtD, inicio"><img class="brand-logo" src="img.jpg" alt="Cr3ArtD — Ideas que toman forma"></a><p>Ideas que toman forma.</p><div class="footer-links"><a href="index.html">Home</a><a href="https://wa.me/50370640855" target="_blank" rel="noopener noreferrer">WhatsApp</a><span>© <span id="year"></span> Cr3ArtD</span></div></footer>
+</body>
+</html>
