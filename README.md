@@ -36,3 +36,9 @@ Las fotografías de fondo se descargan desde Unsplash. Las fuentes Lato y Montse
 - El año del pie se calcula automáticamente en `script.js`.
 
 Antes de compartir cambios en la página de pago, confirma con el propietario que los datos bancarios y el número de contacto sigan vigentes.
+
+## Publicar en Railway
+
+El proyecto incluye un `Dockerfile` y una configuración de Nginx para servir las dos páginas y sus recursos estáticos. Railway puede detectar el `Dockerfile` automáticamente al desplegar desde GitHub; Nginx escucha el puerto que Railway asigna mediante la variable `PORT`.
+
+Para conectarlo, crea un proyecto en Railway, elige **Deploy from GitHub repo** y selecciona `StanleyOsegueda/Cr3ArtD` en la rama `main`. Una vez creado el servicio, genera un dominio público desde **Settings → Networking → Generate Domain**. Con el repositorio conectado, los siguientes cambios enviados a `main` pueden activar nuevos despliegues.
